@@ -60,10 +60,10 @@ const sampleProperties = [
       "Prime residential plot near Amausi Airport on Shahid Path, close to Transport Nagar Metro Station, Lucknow. Excellent connectivity and investment opportunity in a rapidly developing area.",
     contact: "+91-9455432182",
     images: [
-      "/assets/uploads/IMG-20250708-WA0000-1.jpg",
-      "/assets/uploads/IMG-20250708-WA0004-2.jpg",
-      "/assets/uploads/IMG-20250708-WA0008-3.jpg",
-      "/assets/uploads/IMG-20250708-WA0002-4.jpg",
+      "/assets/uploads/IMG-20241114-WA0006-1.jpg",
+      "/assets/uploads/IMG-20241114-WA0010-2.jpg",
+      "/assets/uploads/IMG-20241114-WA0007-3.jpg",
+      "/assets/uploads/IMG-20241114-WA0009-4.jpg",
     ],
   },
   {
