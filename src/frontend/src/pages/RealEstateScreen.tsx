@@ -39,7 +39,7 @@ const sampleProperties = [
     pricePerSqft: 2300,
     description:
       "Beautiful farm bungalow with lush green gardens, scenic lake view, fountain, wooden cottage, and landscaped walkways. A serene getaway near Sagar Institute on Ayodhya Road, Rasauli, Barabanki, UP.",
-    contact: "+91-9876543210",
+    contact: "+91-9455432182",
     images: [
       "/assets/uploads/IMG-20260228-WA0002-1.jpg",
       "/assets/uploads/IMG-20260228-WA0005-2.jpg",
@@ -68,6 +68,23 @@ const sampleProperties = [
   },
   {
     id: 2n,
+    title: "Row House",
+    location: "Ayodhya Road, Near Awadh Law College, Barabanki, UP",
+    budget: 4199000n,
+    areaSize: 965n,
+    pricePerSqft: 4352,
+    description:
+      "Elegant row house with premium construction, ornate ironwork, and modern amenities. Located on Ayodhya Road near Awadh Law College, Barabanki, UP. Ideal for families seeking a stylish and well-connected home.",
+    contact: "+91-9455432182",
+    images: [
+      "/assets/uploads/IMG-20250708-WA0005-1.jpg",
+      "/assets/uploads/IMG-20250708-WA0002-1-2.jpg",
+      "/assets/uploads/IMG-20250708-WA0008-1-3.jpg",
+      "/assets/uploads/IMG-20250708-WA0004-1-4.jpg",
+    ],
+  },
+  {
+    id: 3n,
     title: "Luxury 3BHK Flat",
     location: "Sector 62, Noida",
     budget: 8500000n,
@@ -79,7 +96,7 @@ const sampleProperties = [
     images: ["/assets/generated/property-1.dim_400x250.jpg"],
   },
   {
-    id: 3n,
+    id: 4n,
     title: "Premium Villa with Garden",
     location: "DLF Phase 2, Gurgaon",
     budget: 24000000n,
@@ -90,7 +107,7 @@ const sampleProperties = [
     images: ["/assets/generated/property-2.dim_400x250.jpg"],
   },
   {
-    id: 4n,
+    id: 5n,
     title: "Modern 2BHK Apartment",
     location: "Andheri West, Mumbai",
     budget: 12000000n,
