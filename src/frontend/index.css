@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("/assets/fonts/BricolageGrotesque[opsz,wdth,wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/Outfit[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background */
+    --background: 97% 0.008 270;
+    --foreground: 18% 0.08 270;
+
+    /* Card */
+    --card: 100% 0 0;
+    --card-foreground: 18% 0.08 270;
+
+    /* Popover */
+    --popover: 100% 0 0;
+    --popover-foreground: 18% 0.08 270;
+
+    /* Primary — deep indigo */
+    --primary: 28% 0.22 280;
+    --primary-foreground: 98% 0 0;
+
+    /* Secondary — soft violet */
+    --secondary: 92% 0.04 270;
+    --secondary-foreground: 28% 0.22 280;
+
+    /* Muted */
+    --muted: 94% 0.01 270;
+    --muted-foreground: 50% 0.05 270;
+
+    /* Accent — saffron gold */
+    --accent: 72% 0.20 55;
+    --accent-foreground: 18% 0.06 55;
+
+    /* Gold shades */
+    --gold: 72% 0.20 55;
+    --gold-light: 88% 0.12 75;
+
+    /* Destructive */
+    --destructive: 55% 0.22 25;
+    --destructive-foreground: 98% 0 0;
+
+    /* Border / Input */
+    --border: 88% 0.03 270;
+    --input: 88% 0.03 270;
+    --ring: 50% 0.25 280;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: linear-gradient(135deg, oklch(22% 0.24 285) 0%, oklch(35% 0.28 300) 50%, oklch(28% 0.22 270) 100%);
+  }
+
+  .gradient-gold {
+    background: linear-gradient(135deg, oklch(65% 0.22 50) 0%, oklch(78% 0.18 65) 100%);
+  }
+
+  .gradient-card-realestate {
+    background: linear-gradient(135deg, oklch(45% 0.20 220) 0%, oklch(55% 0.18 200) 100%);
+  }
+
+  .gradient-card-education {
+    background: linear-gradient(135deg, oklch(50% 0.22 150) 0%, oklch(60% 0.18 165) 100%);
+  }
+
+  .gradient-card-webdesign {
+    background: linear-gradient(135deg, oklch(45% 0.24 240) 0%, oklch(55% 0.22 260) 100%);
+  }
+
+  .gradient-card-interior {
+    background: linear-gradient(135deg, oklch(55% 0.18 30) 0%, oklch(65% 0.20 50) 100%);
+  }
+
+  .gradient-card-investment {
+    background: linear-gradient(135deg, oklch(42% 0.20 140) 0%, oklch(52% 0.18 160) 100%);
+  }
+
+  .gradient-card-ecommerce {
+    background: linear-gradient(135deg, oklch(50% 0.24 20) 0%, oklch(60% 0.22 35) 100%);
+  }
+
+  .glass-card {
+    background: oklch(100% 0 0 / 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .phone-frame {
+    max-width: 430px;
+    min-height: 100dvh;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 16px);
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .animate-dot-1 { animation: pulse 1.4s ease-in-out infinite; }
+  .animate-dot-2 { animation: pulse 1.4s ease-in-out 0.2s infinite; }
+  .animate-dot-3 { animation: pulse 1.4s ease-in-out 0.4s infinite; }
+}
