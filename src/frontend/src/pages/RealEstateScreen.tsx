@@ -68,6 +68,21 @@ const sampleProperties = [
   },
   {
     id: 2n,
+    title: "Residential Plot (Corner)",
+    location: "Sultanpur Road, Near Jalsa Resort, Kishan Path, Lucknow, UP",
+    budget: 3238704n,
+    areaSize: 1296n,
+    pricePerSqft: 2499,
+    description:
+      "Prime corner residential plot on Sultanpur Road near Jalsa Resort, Lucknow. 1296 sq.ft. corner plot with excellent road frontage and great investment potential in a developing area.",
+    contact: "+91-9455432182",
+    images: [
+      "/assets/uploads/IMG-20250207-WA0007-1.jpg",
+      "/assets/uploads/IMG-20250207-WA0006-2.jpg",
+    ],
+  },
+  {
+    id: 3n,
     title: "Row House",
     location: "Ayodhya Road, Near Awadh Law College, Barabanki, UP",
     budget: 4199000n,
@@ -84,7 +99,7 @@ const sampleProperties = [
     ],
   },
   {
-    id: 3n,
+    id: 4n,
     title: "Luxury 3BHK Flat",
     location: "Sector 62, Noida",
     budget: 8500000n,
@@ -96,7 +111,7 @@ const sampleProperties = [
     images: ["/assets/generated/property-1.dim_400x250.jpg"],
   },
   {
-    id: 4n,
+    id: 5n,
     title: "Premium Villa with Garden",
     location: "DLF Phase 2, Gurgaon",
     budget: 24000000n,
@@ -107,7 +122,7 @@ const sampleProperties = [
     images: ["/assets/generated/property-2.dim_400x250.jpg"],
   },
   {
-    id: 5n,
+    id: 6n,
     title: "Modern 2BHK Apartment",
     location: "Andheri West, Mumbai",
     budget: 12000000n,
@@ -291,7 +306,7 @@ export default function RealEstateScreen({ onBack }: Props) {
           Real Estate
         </h1>
         <p className="text-white/70 text-sm font-body mt-0.5">
-          Buy, Sell & Rent Properties
+          Buy, Sell &amp; Rent Properties
         </p>
       </div>
 
